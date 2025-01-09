@@ -1,0 +1,36 @@
+Steps to Run the Real-Time Chat Application
+
+01. Start the Server
+	Open a terminal or command prompt.
+	Navigate to the directory containing server.py.
+	Run the following command to start the server:
+
+		python server.py
+
+	The server will display the IP address and a passkey. Note them down.
+
+02. Connect Client 1
+	Open a new terminal or command prompt.
+	Navigate to the directory containing client1.py.
+	Run the following command:
+
+		python client1.py
+
+	Enter the IP address, passkey, and a username when prompted.
+	The chat window for Client 1 will open.
+
+03. Connect Client 2
+	Open another terminal or command prompt.
+	Navigate to the directory containing client2.py.
+	Run the following command:
+
+	python client2.py
+
+	Enter the same IP address, passkey, and a different username when prompted.
+	The chat window for Client 2 will open.
+
+Start Chatting
+
+Type messages in the input box and press Enter to send.
+Chat history will sync across all connected clients.
+Use the Send File button to transfer files.
